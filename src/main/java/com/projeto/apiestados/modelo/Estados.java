@@ -34,12 +34,6 @@ public class Estados {
 //	private int dia;
 //	private LocalDate dataDeFundacao = LocalDate.of(ano,mes,dia);
 //	private long tempoDesdeFundacao = ChronoUnit.YEARS.between(dataDeFundacao, LocalDate.now());
-//
-//	
-//
-//	public long getTempoDesdeFundacao() {
-//		return tempoDesdeFundacao;			
-//}
 
 	public Estados () {
 	}
@@ -116,53 +110,4 @@ public class Estados {
 	public void setRegiao(Regiao regiao) {
 		this.regiao = regiao;
 	}
-
-
-
-	
-
-//public int getMes() {
-//		return mes;
-//	}
-//
-//	
-//	public void setMes(int mes) {
-//		this.mes = mes;
-//	}
-//
-//
-//	public int getAno() {
-//		return ano;
-//	}
-//
-//
-//	public void setAno(int ano) {
-//		this.ano = ano;
-//	}
-//
-//
-//	public int getDia() {
-//		return dia;
-//	}
-//
-//
-//	public void setDia(int dia) {
-//		this.dia = dia;
-//	}
-//
-//
-//	public LocalDate getDataDeFundacao() {
-//		return dataDeFundacao;
-//	}
-//
-//
-//	public void setDataDeFundacao(LocalDate dataDeFundacao) {
-//		this.dataDeFundacao = dataDeFundacao;
-//	}
-//
-//
-//	public void setTempoDesdeFundacao(long tempoDesdeFundacao) {
-//		this.tempoDesdeFundacao = tempoDesdeFundacao;
-//	}
-//	
 }

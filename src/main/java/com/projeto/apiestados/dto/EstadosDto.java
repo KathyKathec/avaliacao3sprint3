@@ -52,14 +52,5 @@ public class EstadosDto {
 	
 		return estados.stream().map(EstadosDto::new).collect(Collectors.toList());
 	}
-				
-	
 	}
-
-
-	
-	
-
-
-
 

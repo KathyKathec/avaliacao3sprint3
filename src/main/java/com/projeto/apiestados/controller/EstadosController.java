@@ -49,11 +49,7 @@ public class EstadosController {
 	
 		} else  { List<Estados> estados = estadosRepository.findByRegiao(regiao);
 		return  EstadosDto.converter(estados);			
-		}
-	//		if (populacao==null) {List<Estados> estados = estadosRepository.findAll();
-		//return  EstadosDto.converter(estados);	
-		// }else { 		
-	                                  
+		}                             
 	}
 
 	
